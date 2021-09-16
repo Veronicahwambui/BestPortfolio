@@ -11,7 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* custom scroll bar */
+/* scroll bar */
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -123,6 +123,8 @@ section .title::after{
 }
 .navbar .menu li a:hover{
     color: #01a29c;
+    border-bottom: 3px solid #01a29c;
+    border-radius: 4px;
   
 }
 .navbar.sticky .menu li a:hover{
@@ -215,6 +217,7 @@ section .title::after{
 .home .home-content a:hover{
     color: #01a29c;
     background: none;
+   
 }
 .home-content{
    margin:10%;
@@ -276,16 +279,17 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #222435;
-    content: "what i provide";
+    content: "what I provide";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
     background:#282a3f;
     text-align: center;
     border-radius: 6px;
-    padding: 50px 25px;
+    padding: 70px 35px;
     cursor: pointer;
     transition: all 0.3s ease;
+    padding-top: 40px;
 }
 .services .serv-content .card:hover{
     background:#01a29c;
@@ -309,144 +313,20 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-
-/* skills section styling */
-
-/* .skills .title::after{
-    content: "what i know";
-}
-.skills .skills-content .column{
-    width: calc(50% - 30px);
-}
-.skills .skills-content .left .text{
+ .view a{
     font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.skills .skills-content .left p{
-    text-align: justify;
-}
-.skills .skills-content .left a{
-    display: inline-block;
-    background: crimson;
+    font-weight: 500;
     color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px 16px;
-    margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid crimson;
-    transition: all 0.3s ease;
 }
-.skills .skills-content .left a:hover{
-    color: crimson;
-    background: none;
+.view a:hover{
+    color: black;
+    border-bottom: 3px solid #fff;
 }
-.skills .skills-content .right .bars{
-    margin-bottom: 15px;
+img{
+    height: 200px;
+    width: 300px;
 }
-.skills .skills-content .right .info{
-    display: flex;
-    margin-bottom: 5px;
-    align-items: center;
-    justify-content: space-between;
-}
-.skills .skills-content .right span{
-    font-weight: 500;
-    font-size: 18px;
-}
-.skills .skills-content .right .line{
-    height: 5px;
-    width: 100%;
-    background: lightgrey;
-    position: relative;
-}
-.skills .skills-content .right .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: crimson;
-}
-.skills-content .right .html::before{
-    width: 90%;
-}
-.skills-content .right .css::before{
-    width: 60%;
-}
-.skills-content .right .js::before{
-    width: 80%;
-}
-.skills-content .right .php::before{
-    width: 50%;
-}
-.skills-content .right .mysql::before{
-    width: 70%;
-} */
 
-/* teams section styling */
-/* .teams .title::after{
-    content: "who with me";
-}
-.teams .carousel .card{
-    background: #222;
-    border-radius: 6px;
-    padding: 25px 35px;
-    text-align: center;
-    overflow: hidden;
-    transition: all 0.3s ease;
-}
-.teams .carousel .card:hover{
-    background: crimson;
-}
-.teams .carousel .card .box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-}
-.teams .carousel .card:hover .box{
-    transform: scale(1.05);
-}
-.teams .carousel .card .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-}
-.teams .carousel .card img{
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid crimson;
-    transition: all 0.3s ease;
-}
-.teams .carousel .card:hover img{
-    border-color: #fff;
-}
-.owl-dots{
-    text-align: center;
-    margin-top: 20px;
-}
-.owl-dot{
-    height: 13px;
-    width: 13px;
-    margin: 0 5px;
-    outline: none!important;
-    border-radius: 50%;
-    border: 2px solid crimson!important;
-    transition: all 0.3s ease;
-}
-.owl-dot.active{
-    width: 35px;
-    border-radius: 14px;
-}
-.owl-dot.active,
-.owl-dot:hover{
-    background: crimson!important;
-} */
 
 /* contact section styling */
 .contact .title::after{
@@ -528,7 +408,7 @@ footer span a:hover{
 }
 
 
-/* responsive media query start */
+/* responsive media query  */
 @media (max-width: 1104px) {
     .about .about-content .left img{
         height: 350px;
