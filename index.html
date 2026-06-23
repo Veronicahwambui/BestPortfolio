@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veronicah Njenga — Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+</head>
+<body>
+
+    <button class="scroll-up-btn" id="scrollUpBtn">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">VN<span>.</span></a></div>
+            <ul class="menu" id="menu">
+                <li><a href="#home"     class="menu-link">Home</a></li>
+                <li><a href="#about"    class="menu-link">About</a></li>
+                <li><a href="#skills"   class="menu-link">Skills</a></li>
+                <li><a href="#projects" class="menu-link">Projects</a></li>
+                <li><a href="#contact"  class="menu-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ══ HERO ══════════════════════════════════════════════════════════════ -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+            <div class="particles">
+                <span></span><span></span><span></span>
+                <span></span><span></span><span></span>
+                <span></span><span></span>
+            </div>
+        </div>
+
+        <div class="max-width">
+            <div class="hero-inner">
+
+                <!-- Left: text -->
+                <div class="hero-content">
+                    <div class="available-badge">
+                        <span class="pulse-dot"></span> Available for hire
+                    </div>
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-name">Veronicah<br>Njenga</h1>
+                    <p class="hero-role">I'm a <span class="typing"></span></p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="https://drive.google.com/file/d/1m-eC8SlUGygdvV36NjIPcc_ntkBHynZL/view?usp=sharing"
+                           class="btn btn-outline" target="_blank">Download CV</a>
+                    </div>
+                </div>
+
+                <!-- Right: floating code card -->
+                <div class="hero-visual">
+                    <div class="hero-card">
+                        <div class="hero-card-header">
+                            <span class="dot dot-red"></span>
+                            <span class="dot dot-yellow"></span>
+                            <span class="dot dot-green"></span>
+                            <span class="file-name">developer.js</span>
+                        </div>
+                        <div class="hero-card-body">
+                            <div class="cl"><span class="kw">const</span> <span class="var">developer</span> = {</div>
+                            <div class="cl i1"><span class="key">name</span><span class="punc">:</span> <span class="str">"Veronicah Njenga"</span><span class="punc">,</span></div>
+                            <div class="cl i1"><span class="key">role</span><span class="punc">:</span> <span class="str">"Full-Stack Developer"</span><span class="punc">,</span></div>
+                            <div class="cl i1"><span class="key">stack</span><span class="punc">:</span> [</div>
+                            <div class="cl i2"><span class="str">"React.js"</span><span class="punc">,</span> <span class="str">"Python"</span><span class="punc">,</span></div>
+                            <div class="cl i2"><span class="str">"Django"</span><span class="punc">,</span> <span class="str">"JavaScript"</span></div>
+                            <div class="cl i1">]<span class="punc">,</span></div>
+                            <div class="cl i1"><span class="key">available</span><span class="punc">:</span> <span class="bool">true</span></div>
+                            <div class="cl"><span class="punc">}</span></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="hero-scroll">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- ══ STATS STRIP ════════════════════════════════════════════════════════ -->
+    <div class="stats-strip">
+        <div class="max-width">
+            <div class="stats-row">
+                <div class="stat-item">
+                    <h3><span class="count" data-target="6">0</span><span class="stat-plus">+</span></h3>
+                    <p>Projects</p>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <h3><span class="count" data-target="2">0</span><span class="stat-plus">+</span></h3>
+                    <p>Years Coding</p>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <h3 class="stat-open"><i class="fas fa-circle-check"></i> Open</h3>
+                    <p>to New Opportunities</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ══ ABOUT ══════════════════════════════════════════════════════════════ -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <div class="section-header">
+                <span class="section-tag">Get to know me</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <!-- glowing blob behind image -->
+                    <div class="img-glow"></div>
+                    <!-- floating decorative dots -->
+                    <div class="img-dots">
+                        <span></span><span></span><span></span><span></span>
+                    </div>
+                    <!-- tilt wrapper (JS handles mouse move) -->
+                    <div class="img-tilt" id="imgTilt">
+                        <div class="img-frame">
+                            <img src="images/im.jpg" alt="Veronicah Njenga">
+                            <div class="img-shimmer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>I'm a <span class="typing-2"></span></h3>
+                    <p>I'm a passionate and self-motivated Software Developer with a strong foundation in both frontend and backend development. I love solving real-world problems through clean, efficient code and intuitive user experiences.</p>
+                    <p>With expertise in React.js, Python, and Django, I build full-stack applications that are fast, accessible, and scalable. I thrive in collaborative environments and am always eager to learn, grow, and take on new challenges.</p>
+                    <a href="https://drive.google.com/file/d/1m-eC8SlUGygdvV36NjIPcc_ntkBHynZL/view?usp=sharing"
+                       class="btn btn-primary" target="_blank">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══ SKILLS ═════════════════════════════════════════════════════════════ -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <div class="section-header">
+                <span class="section-tag">What I work with</span>
+                <h2 class="section-title">Skills</h2>
+            </div>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h4><i class="fas fa-laptop-code"></i> Frontend</h4>
+                    <div class="skill-tags">
+                        <span>JavaScript</span><span>React.js</span><span>Redux</span>
+                        <span>HTML5</span><span>CSS3</span><span>Bootstrap</span>
+                        <span>Tailwind CSS</span><span>Material UI</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4><i class="fas fa-server"></i> Backend</h4>
+                    <div class="skill-tags">
+                        <span>Python</span><span>Django</span>
+                        <span>Django REST Framework</span><span>REST APIs</span>
+                        <span>PostgreSQL</span><span>SQLite</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4><i class="fas fa-tools"></i> Tools &amp; Soft Skills</h4>
+                    <div class="skill-tags">
+                        <span>Git</span><span>GitHub</span><span>Netlify</span>
+                        <span>VS Code</span><span>Problem Solving</span>
+                        <span>Communication</span><span>Adaptability</span><span>Teamwork</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══ PROJECTS ═══════════════════════════════════════════════════════════ -->
+    <section class="projects" id="projects">
+        <div class="max-width">
+            <div class="section-header">
+                <span class="section-tag">What I've built</span>
+                <h2 class="section-title">Projects</h2>
+            </div>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/food.jpeg" alt="Restaurant Website">
+                        <div class="project-overlay">
+                            <a href="https://restaurant-website-a4d666.netlify.app/" target="_blank" class="overlay-btn">
+                                <i class="fas fa-external-link-alt"></i> View Live
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Restaurant Website</h3>
+                        <p>A dynamic, responsive web app where users can browse menus and place food orders with ease.</p>
+                        <div class="project-tech">
+                            <span>React.js</span><span>Material UI</span><span>HTML/CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/gym.jpeg" alt="Gym Website">
+                        <div class="project-overlay">
+                            <a href="https://sparkly-website-gym.netlify.app/" target="_blank" class="overlay-btn">
+                                <i class="fas fa-external-link-alt"></i> View Live
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Gym Website</h3>
+                        <p>A fitness platform showcasing trainers, membership tiers, and payment plans for users.</p>
+                        <div class="project-tech">
+                            <span>React.js</span><span>JavaScript</span><span>HTML/CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/cv.jpg" alt="React CV Builder">
+                        <div class="project-overlay">
+                            <a href="https://react-cv-template-a6b0c1.netlify.app/" target="_blank" class="overlay-btn">
+                                <i class="fas fa-external-link-alt"></i> View Live
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>React CV Builder</h3>
+                        <p>An interactive resume builder that lets users create and customize professional CVs with ease.</p>
+                        <div class="project-tech">
+                            <span>React.js</span><span>Material Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Placeholder 1 -->
+                <div class="project-card project-wip">
+                    <div class="project-img wip-img">
+                        <div class="wip-icon"><i class="fas fa-layer-group"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="wip-badge">🚧 Coming Soon</span>
+                        <h3>Full-Stack App</h3>
+                        <p>A full-stack web application with user authentication, REST API, and a modern React frontend.</p>
+                        <div class="project-tech">
+                            <span>Python</span><span>Django</span><span>React.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Placeholder 2 -->
+                <div class="project-card project-wip">
+                    <div class="project-img wip-img">
+                        <div class="wip-icon"><i class="fas fa-mobile-alt"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="wip-badge">🚧 Coming Soon</span>
+                        <h3>Responsive Dashboard</h3>
+                        <p>An admin dashboard with data visualizations, charts, and responsive layout across all devices.</p>
+                        <div class="project-tech">
+                            <span>React.js</span><span>Tailwind CSS</span><span>REST API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Placeholder 3 -->
+                <div class="project-card project-wip">
+                    <div class="project-img wip-img">
+                        <div class="wip-icon"><i class="fas fa-database"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="wip-badge">🚧 Coming Soon</span>
+                        <h3>Django REST API</h3>
+                        <p>A fully documented REST API with authentication, CRUD operations, and PostgreSQL database.</p>
+                        <div class="project-tech">
+                            <span>Django</span><span>PostgreSQL</span><span>DRF</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ══ CONTACT ════════════════════════════════════════════════════════════ -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <div class="section-header">
+                <span class="section-tag">Let's talk</span>
+                <h2 class="section-title">Contact Me</h2>
+            </div>
+            <div class="contact-content">
+                <p class="contact-desc">I'm currently open to new opportunities. Whether you have a project in mind, want to collaborate, or just want to say hi — my inbox is always open!</p>
+                <a href="https://www.linkedin.com/in/veronicah-wambui-b7628b20a/" target="_blank"
+                   class="btn btn-primary contact-btn">
+                    <i class="fas fa-paper-plane"></i> Get in Touch
+                </a>
+                <div class="social-links">
+                    <a href="https://twitter.com/VeronicaNjengah" target="_blank" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/veronicah-wambui-b7628b20a/" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Veronicahwambui" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <p>Designed &amp; Built by <span>Veronicah Njenga</span> &copy; 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
