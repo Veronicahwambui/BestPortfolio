@@ -1,0 +1,116 @@
+<svg width="600" height="380" viewBox="0 0 600 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0a00"/>
+      <stop offset="100%" style="stop-color:#2d1500"/>
+    </linearGradient>
+    <!-- Ankara pattern -->
+    <pattern id="ankara" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="#1a0a00"/>
+      <circle cx="20" cy="20" r="8" fill="none" stroke="#e85d04" stroke-width="2"/>
+      <circle cx="20" cy="20" r="4" fill="#f48c06"/>
+      <circle cx="0" cy="0" r="4" fill="#e85d04" opacity="0.5"/>
+      <circle cx="40" cy="0" r="4" fill="#e85d04" opacity="0.5"/>
+      <circle cx="0" cy="40" r="4" fill="#e85d04" opacity="0.5"/>
+      <circle cx="40" cy="40" r="4" fill="#e85d04" opacity="0.5"/>
+      <line x1="0" y1="20" x2="12" y2="20" stroke="#f48c06" stroke-width="1.5" opacity="0.6"/>
+      <line x1="28" y1="20" x2="40" y2="20" stroke="#f48c06" stroke-width="1.5" opacity="0.6"/>
+      <line x1="20" y1="0" x2="20" y2="12" stroke="#f48c06" stroke-width="1.5" opacity="0.6"/>
+      <line x1="20" y1="28" x2="20" y2="40" stroke="#f48c06" stroke-width="1.5" opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="380" fill="url(#heroBg)"/>
+  <!-- Ankara pattern overlay -->
+  <rect width="600" height="380" fill="url(#ankara)" opacity="0.3"/>
+
+  <!-- Top gradient overlay -->
+  <rect width="600" height="120" fill="#0a0500" opacity="0.7"/>
+  <rect y="260" width="600" height="120" fill="#0a0500" opacity="0.8"/>
+
+  <!-- Navbar -->
+  <rect width="600" height="50" fill="#0d0600" opacity="0.95"/>
+  <rect y="50" width="600" height="1" fill="#e85d04" opacity="0.4"/>
+  <text x="24" y="32" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#f48c06" letter-spacing="2">VITENGE</text>
+  <text x="108" y="32" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#ffffff" letter-spacing="2">STORE</text>
+  <text x="380" y="32" font-family="Arial, sans-serif" font-size="11" fill="#aaa">Shop</text>
+  <text x="430" y="32" font-family="Arial, sans-serif" font-size="11" fill="#aaa">Collections</text>
+  <text x="510" y="32" font-family="Arial, sans-serif" font-size="11" fill="#aaa">About</text>
+  <!-- Cart icon -->
+  <rect x="558" y="17" width="22" height="18" rx="3" fill="none" stroke="#f48c06" stroke-width="1.5"/>
+  <path d="M562 17 Q562 12 569 12 Q576 12 576 17" fill="none" stroke="#f48c06" stroke-width="1.5"/>
+  <circle cx="563" cy="38" r="2" fill="#f48c06"/>
+  <circle cx="573" cy="38" r="2" fill="#f48c06"/>
+  <text x="565" y="30" font-family="Arial" font-size="9" fill="#f48c06" font-weight="700">3</text>
+
+  <!-- Hero Section -->
+  <text x="300" y="110" font-family="Georgia, serif" font-size="11" fill="#f48c06" text-anchor="middle" letter-spacing="4">AFRICAN FASHION</text>
+  <text x="300" y="148" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#ffffff" text-anchor="middle">Wear Your</text>
+  <text x="300" y="185" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#f48c06" font-style="italic" text-anchor="middle">Culture</text>
+  <text x="300" y="214" font-family="Arial, sans-serif" font-size="12" fill="#aaa" text-anchor="middle">Premium Ankara &amp; Kitenge collections for the modern African</text>
+
+  <!-- CTA Button -->
+  <rect x="218" y="228" width="164" height="36" rx="18" fill="#e85d04"/>
+  <text x="300" y="251" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1">SHOP COLLECTION</text>
+
+  <!-- Product cards -->
+  <!-- Card 1 -->
+  <rect x="24" y="278" width="108" height="90" rx="8" fill="#1f0c00" stroke="#e85d04" stroke-width="0.5" stroke-opacity="0.5"/>
+  <rect x="24" y="278" width="108" height="54" rx="8" fill="#3d1a00"/>
+  <!-- Kitenge pattern on card 1 -->
+  <circle cx="58" cy="305" r="16" fill="none" stroke="#e85d04" stroke-width="2"/>
+  <circle cx="58" cy="305" r="8" fill="#f48c06" opacity="0.7"/>
+  <circle cx="90" cy="305" r="10" fill="none" stroke="#f48c06" stroke-width="1.5"/>
+  <circle cx="90" cy="305" r="5" fill="#e85d04" opacity="0.6"/>
+  <rect x="28" y="336" width="100" height="1" fill="#e85d04" opacity="0.2"/>
+  <text x="78" y="352" font-family="Georgia, serif" font-size="9" fill="#fff" text-anchor="middle">Ankara Dress</text>
+  <text x="78" y="363" font-family="Arial, sans-serif" font-size="9" fill="#f48c06" text-anchor="middle" font-weight="700">KSh 3,500</text>
+
+  <!-- Card 2 -->
+  <rect x="142" y="278" width="108" height="90" rx="8" fill="#1f0c00" stroke="#f48c06" stroke-width="1" stroke-opacity="0.8"/>
+  <rect x="142" y="278" width="108" height="54" rx="8" fill="#2d1200"/>
+  <!-- Pattern -->
+  <rect x="152" y="288" width="14" height="14" rx="2" fill="#e85d04" opacity="0.8"/>
+  <rect x="172" y="288" width="14" height="14" rx="2" fill="#f48c06" opacity="0.6"/>
+  <rect x="192" y="288" width="14" height="14" rx="2" fill="#dc2f02" opacity="0.7"/>
+  <rect x="212" y="288" width="14" height="14" rx="2" fill="#e85d04" opacity="0.5"/>
+  <rect x="152" y="308" width="14" height="14" rx="2" fill="#f48c06" opacity="0.5"/>
+  <rect x="172" y="308" width="14" height="14" rx="2" fill="#dc2f02" opacity="0.8"/>
+  <rect x="192" y="308" width="14" height="14" rx="2" fill="#e85d04" opacity="0.6"/>
+  <rect x="212" y="308" width="14" height="14" rx="2" fill="#f48c06" opacity="0.7"/>
+  <rect x="146" y="336" width="100" height="1" fill="#f48c06" opacity="0.3"/>
+  <text x="196" y="352" font-family="Georgia, serif" font-size="9" fill="#fff" text-anchor="middle">Kitenge Set</text>
+  <text x="196" y="363" font-family="Arial, sans-serif" font-size="9" fill="#f48c06" text-anchor="middle" font-weight="700">KSh 5,200</text>
+
+  <!-- Card 3 -->
+  <rect x="260" y="278" width="108" height="90" rx="8" fill="#1f0c00" stroke="#e85d04" stroke-width="0.5" stroke-opacity="0.5"/>
+  <rect x="260" y="278" width="108" height="54" rx="8" fill="#3d1a00"/>
+  <!-- Diamond pattern -->
+  <polygon points="314,285 328,305 314,325 300,305" fill="none" stroke="#f48c06" stroke-width="1.5"/>
+  <polygon points="314,293 322,305 314,317 306,305" fill="#e85d04" opacity="0.6"/>
+  <rect x="264" y="336" width="100" height="1" fill="#e85d04" opacity="0.2"/>
+  <text x="314" y="352" font-family="Georgia, serif" font-size="9" fill="#fff" text-anchor="middle">Kente Wrap</text>
+  <text x="314" y="363" font-family="Arial, sans-serif" font-size="9" fill="#f48c06" text-anchor="middle" font-weight="700">KSh 4,800</text>
+
+  <!-- Card 4 -->
+  <rect x="378" y="278" width="108" height="90" rx="8" fill="#1f0c00" stroke="#e85d04" stroke-width="0.5" stroke-opacity="0.5"/>
+  <rect x="378" y="278" width="108" height="54" rx="8" fill="#2d1200"/>
+  <!-- Zigzag pattern -->
+  <polyline points="383,295 393,285 403,295 413,285 423,295 433,285 443,295 453,285 463,295 473,285 481,295" fill="none" stroke="#f48c06" stroke-width="2"/>
+  <polyline points="383,310 393,300 403,310 413,300 423,310 433,300 443,310 453,300 463,310 473,300 481,310" fill="none" stroke="#e85d04" stroke-width="2" opacity="0.6"/>
+  <rect x="382" y="336" width="100" height="1" fill="#e85d04" opacity="0.2"/>
+  <text x="432" y="352" font-family="Georgia, serif" font-size="9" fill="#fff" text-anchor="middle">Dashiki Top</text>
+  <text x="432" y="363" font-family="Arial, sans-serif" font-size="9" fill="#f48c06" text-anchor="middle" font-weight="700">KSh 2,900</text>
+
+  <!-- Card 5 -->
+  <rect x="496" y="278" width="80" height="90" rx="8" fill="#1f0c00" stroke="#e85d04" stroke-width="0.5" stroke-opacity="0.5"/>
+  <rect x="496" y="278" width="80" height="54" rx="8" fill="#3d1a00"/>
+  <circle cx="536" cy="300" r="12" fill="#e85d04" opacity="0.8"/>
+  <circle cx="536" cy="300" r="6" fill="#f48c06"/>
+  <circle cx="516" cy="316" r="8" fill="#dc2f02" opacity="0.6"/>
+  <circle cx="556" cy="316" r="8" fill="#f48c06" opacity="0.5"/>
+  <rect x="500" y="336" width="72" height="1" fill="#e85d04" opacity="0.2"/>
+  <text x="536" y="352" font-family="Georgia, serif" font-size="9" fill="#fff" text-anchor="middle">Head Wrap</text>
+  <text x="536" y="363" font-family="Arial, sans-serif" font-size="9" fill="#f48c06" text-anchor="middle" font-weight="700">KSh 1,800</text>
+</svg>

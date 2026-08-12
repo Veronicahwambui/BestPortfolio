@@ -1,105 +1,78 @@
-<svg width="600" height="380" viewBox="0 0 600 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, serif">
+<svg width="600" height="380" viewBox="0 0 600 380" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#080808"/>
-      <stop offset="100%" style="stop-color:#111118"/>
+      <stop offset="100%" style="stop-color:#0f0f0f"/>
     </linearGradient>
-    <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#f0c355;stop-opacity:0.15"/>
-      <stop offset="100%" style="stop-color:#f0c355;stop-opacity:0"/>
+    <linearGradient id="goldCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0c355;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#f0c355;stop-opacity:0.04"/>
     </linearGradient>
-    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#1a1a1a"/>
-      <stop offset="100%" style="stop-color:#111111"/>
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
 
   <!-- Background -->
   <rect width="600" height="380" fill="url(#bg)"/>
-  <!-- Top gold ambient glow -->
-  <ellipse cx="300" cy="-20" rx="260" ry="100" fill="#f0c355" opacity="0.05"/>
+  <ellipse cx="300" cy="-10" rx="300" ry="120" fill="#f0c355" opacity="0.04"/>
 
-  <!-- Nav bar -->
-  <rect width="600" height="40" fill="#0d0d0d" opacity="0.9"/>
-  <rect width="600" height="1" y="40" fill="#ffffff" opacity="0.07"/>
-  <text x="20" y="26" font-size="14" font-weight="bold" fill="#f0c355" font-style="italic">⚡ Splitter</text>
-  <rect x="460" y="12" width="54" height="18" rx="9" fill="#1a1a1a" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.15"/>
-  <text x="487" y="25" font-size="10" fill="#888" text-anchor="middle">Home</text>
-  <rect x="520" y="12" width="64" height="18" rx="9" fill="#1e1e1e" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.2"/>
-  <text x="552" y="25" font-size="10" fill="#ccc" text-anchor="middle">Dashboard</text>
+  <!-- Navbar -->
+  <rect width="600" height="44" fill="#0a0a0a"/>
+  <rect y="44" width="600" height="1" fill="#ffffff" opacity="0.06"/>
+  <text x="22" y="28" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#f0c355">⚡ Splitter</text>
+  <rect x="440" y="14" width="60" height="20" rx="10" fill="#181818" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.1"/>
+  <text x="470" y="28" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">Home</text>
+  <rect x="510" y="14" width="74" height="20" rx="10" fill="#202020" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.15"/>
+  <text x="547" y="28" font-family="Arial" font-size="10" fill="#ccc" text-anchor="middle">Dashboard</text>
 
-  <!-- Page title -->
-  <text x="20" y="82" font-size="28" font-weight="700" fill="#efefef" letter-spacing="-0.5">Expense </text>
-  <text x="148" y="82" font-size="28" font-weight="700" fill="#f0c355" font-style="italic" letter-spacing="-0.5">Splitter</text>
-  <text x="20" y="98" font-size="9" fill="#555" letter-spacing="1.5">CREATE A GROUP · ADD MEMBERS · SPLIT BILLS FAIRLY</text>
+  <!-- Title -->
+  <text x="300" y="96" font-family="Georgia, serif" font-size="36" font-weight="700" fill="#efefef" text-anchor="middle" letter-spacing="-1">Expense</text>
+  <text x="300" y="134" font-family="Georgia, serif" font-size="36" font-weight="700" fill="#f0c355" font-style="italic" text-anchor="middle" letter-spacing="-1">Splitter</text>
 
-  <!-- Stats row -->
-  <rect x="20" y="108" width="560" height="48" rx="10" fill="#111111" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.07"/>
-  <text x="120" y="127" font-size="18" font-weight="700" fill="#f0c355" text-anchor="middle">3</text>
-  <text x="120" y="142" font-size="8" fill="#555" text-anchor="middle" letter-spacing="1">GROUPS</text>
-  <line x1="220" y1="118" x2="220" y2="148" stroke="#ffffff" stroke-opacity="0.07"/>
-  <text x="300" y="127" font-size="18" font-weight="700" fill="#f0c355" text-anchor="middle">9</text>
-  <text x="300" y="142" font-size="8" fill="#555" text-anchor="middle" letter-spacing="1">MEMBERS</text>
-  <line x1="380" y1="118" x2="380" y2="148" stroke="#ffffff" stroke-opacity="0.07"/>
-  <text x="460" y="127" font-size="18" font-weight="700" fill="#f0c355" text-anchor="middle">12</text>
-  <text x="460" y="142" font-size="8" fill="#555" text-anchor="middle" letter-spacing="1">EXPENSES</text>
+  <!-- 3 Stat Cards -->
+  <rect x="22" y="152" width="170" height="60" rx="10" fill="#111" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.07"/>
+  <text x="107" y="178" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#f0c355" text-anchor="middle">5</text>
+  <text x="107" y="198" font-family="Arial" font-size="9" fill="#555" text-anchor="middle" letter-spacing="2">GROUPS</text>
 
-  <!-- Quick Split card -->
-  <rect x="20" y="164" width="268" height="130" rx="10" fill="#111111" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.07"/>
-  <rect x="30" y="174" width="28" height="28" rx="7" fill="#f0c355" opacity="0.12"/>
-  <text x="44" y="192" font-size="14" text-anchor="middle">⚡</text>
-  <text x="68" y="186" font-size="12" font-weight="700" fill="#efefef">Quick Split</text>
-  <text x="68" y="198" font-size="8" fill="#555">Calculate instantly — no group needed</text>
-  <!-- inputs -->
-  <rect x="30" y="210" width="118" height="24" rx="6" fill="#191919" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.07"/>
-  <text x="40" y="225" font-size="9" fill="#555">Total Bill ($)</text>
-  <text x="128" y="225" font-size="10" fill="#888" text-anchor="end">120.00</text>
-  <rect x="158" y="210" width="118" height="24" rx="6" fill="#191919" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.07"/>
-  <text x="168" y="225" font-size="9" fill="#555">People</text>
-  <text x="266" y="225" font-size="10" fill="#888" text-anchor="end">4</text>
-  <!-- Result -->
-  <rect x="30" y="242" width="246" height="42" rx="8" fill="#f0c355" opacity="0.08" stroke="#f0c355" stroke-width="0.5" stroke-opacity="0.2"/>
-  <text x="46" y="258" font-size="9" fill="#888" letter-spacing="1">EACH PERSON PAYS</text>
-  <text x="265" y="274" font-size="22" font-weight="700" fill="#f0c355" text-anchor="end" filter="url(#glow)">$30.00</text>
+  <rect x="215" y="152" width="170" height="60" rx="10" fill="#111" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.07"/>
+  <text x="300" y="178" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#f0c355" text-anchor="middle">18</text>
+  <text x="300" y="198" font-family="Arial" font-size="9" fill="#555" text-anchor="middle" letter-spacing="2">MEMBERS</text>
 
-  <!-- Group cards -->
-  <rect x="296" y="164" width="136" height="130" rx="10" fill="#111111" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.07"/>
-  <!-- gold top bar -->
-  <rect x="296" y="164" width="136" height="2" rx="1" fill="#f0c355" opacity="0.6"/>
-  <text x="308" y="188" font-size="13" font-weight="700" fill="#efefef">Mombasa Trip</text>
-  <text x="308" y="272" font-size="8" fill="#555">👥 4 members</text>
-  <text x="308" y="285" font-size="8" fill="#555">🧾 6 expenses</text>
+  <rect x="408" y="152" width="170" height="60" rx="10" fill="url(#goldCard)" stroke="#f0c355" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="493" y="178" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#f0c355" text-anchor="middle">$840</text>
+  <text x="493" y="198" font-family="Arial" font-size="9" fill="#888" text-anchor="middle" letter-spacing="2">TOTAL SPENT</text>
 
-  <rect x="440" y="164" width="140" height="130" rx="10" fill="#111111" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.07"/>
-  <text x="452" y="188" font-size="13" font-weight="700" fill="#efefef">House Bills</text>
-  <text x="452" y="272" font-size="8" fill="#555">👥 3 members</text>
-  <text x="452" y="285" font-size="8" fill="#555">🧾 4 expenses</text>
+  <!-- Two columns -->
+  <!-- Left: Expenses -->
+  <rect x="22" y="226" width="270" height="140" rx="10" fill="#111" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.07"/>
+  <text x="38" y="246" font-family="Arial" font-size="8" fill="#555" letter-spacing="2">RECENT EXPENSES</text>
 
-  <!-- Balances section -->
-  <rect x="20" y="302" width="268" height="62" rx="10" fill="#111111" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.07"/>
-  <text x="32" y="318" font-size="8" fill="#555" letter-spacing="1">BALANCES</text>
-  <rect x="30" y="324" width="246" height="18" rx="5" fill="#3ecf73" opacity="0.1"/>
-  <text x="40" y="336" font-size="9" fill="#888">Alice</text>
-  <text x="264" y="336" font-size="10" font-weight="700" fill="#3ecf73" text-anchor="end">+$60.00</text>
-  <rect x="30" y="344" width="246" height="14" rx="5" fill="#f16060" opacity="0.1"/>
-  <text x="40" y="354" font-size="9" fill="#888">Bob</text>
-  <text x="264" y="354" font-size="10" font-weight="700" fill="#f16060" text-anchor="end">-$30.00</text>
+  <rect x="30" y="254" width="254" height="28" rx="6" fill="#191919"/>
+  <text x="42" y="273" font-family="Georgia, serif" font-size="13" font-weight="600" fill="#eee">Hotel Booking</text>
+  <text x="272" y="273" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#f0c355" text-anchor="end">$240</text>
+  <text x="42" y="285" font-family="Arial" font-size="8" fill="#555">Mombasa Trip · Paid by Alice</text>
 
-  <!-- Settlements -->
-  <rect x="296" y="302" width="284" height="62" rx="10" fill="#111111" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.07"/>
-  <text x="308" y="318" font-size="8" fill="#555" letter-spacing="1">WHO PAYS WHO</text>
-  <rect x="306" y="324" width="264" height="18" rx="5" fill="#191919" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.07"/>
-  <text x="316" y="336" font-size="9" font-weight="600" fill="#f16060">Bob</text>
-  <text x="346" y="336" font-size="8" fill="#555">→ pays →</text>
-  <text x="396" y="336" font-size="9" font-weight="600" fill="#3ecf73">Alice</text>
-  <text x="558" y="336" font-size="11" font-weight="700" fill="#f0c355" text-anchor="end">$30.00</text>
-  <rect x="306" y="344" width="264" height="14" rx="5" fill="#191919" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.07"/>
-  <text x="316" y="354" font-size="9" font-weight="600" fill="#f16060">Carol</text>
-  <text x="352" y="354" font-size="8" fill="#555">→ pays →</text>
-  <text x="402" y="354" font-size="9" font-weight="600" fill="#3ecf73">Alice</text>
-  <text x="558" y="354" font-size="11" font-weight="700" fill="#f0c355" text-anchor="end">$30.00</text>
+  <rect x="30" y="288" width="254" height="28" rx="6" fill="#191919"/>
+  <text x="42" y="307" font-family="Georgia, serif" font-size="13" font-weight="600" fill="#eee">Dinner</text>
+  <text x="272" y="307" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#f0c355" text-anchor="end">$120</text>
+  <text x="42" y="319" font-family="Arial" font-size="8" fill="#555">House Bills · Paid by Bob</text>
+
+  <rect x="30" y="322" width="254" height="28" rx="6" fill="#191919"/>
+  <text x="42" y="341" font-family="Georgia, serif" font-size="13" font-weight="600" fill="#eee">Fuel</text>
+  <text x="272" y="341" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#f0c355" text-anchor="end">$80</text>
+  <text x="42" y="353" font-family="Arial" font-size="8" fill="#555">Road Trip · Paid by Carol</text>
+
+  <!-- Right: Balances -->
+  <rect x="308" y="226" width="270" height="140" rx="10" fill="#111" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.07"/>
+  <text x="324" y="246" font-family="Arial" font-size="8" fill="#555" letter-spacing="2">BALANCES</text>
+
+  <rect x="316" y="254" width="254" height="28" rx="6" fill="#3ecf73" fill-opacity="0.1"/>
+  <text x="328" y="273" font-family="Arial" font-size="12" fill="#bbb">Alice</text>
+  <text x="558" y="273" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#3ecf73" text-anchor="end">+$160</text>
+
+  <rect x="316" y="288" width="254" height="28" rx="6" fill="#f16060" fill-opacity="0.1"/>
+  <text x="328" y="307" font-family="Arial" font-size="12" fill="#bbb">Bob</text>
+  <text x="558" y="307" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#f16060" text-anchor="end">-$80</text>
+
+  <rect x="316" y="322" width="254" height="28" rx="6" fill="#f16060" fill-opacity="0.1"/>
+  <text x="328" y="341" font-family="Arial" font-size="12" fill="#bbb">Carol</text>
+  <text x="558" y="341" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#f16060" text-anchor="end">-$80</text>
 </svg>
