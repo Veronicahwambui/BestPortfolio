@@ -327,6 +327,15 @@ section    { padding: 100px 0; }
 }
 .hero-role span { color: var(--primary); font-weight: 600; }
 
+.hero-desc {
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--muted);
+    max-width: 460px;
+    margin-bottom: 36px;
+    animation: fadeUp 0.6s ease 0.55s both;
+}
+
 .hero-cta {
     display: flex; gap: 14px; flex-wrap: wrap;
     animation: fadeUp 0.6s ease 0.6s both;
@@ -861,7 +870,9 @@ footer span { color: var(--primary); }
     .menu.active { transform: translateX(0); }
     .menu-link { font-size: 20px; padding: 14px 32px; width: 220px; text-align: center; }
 
+    .hero { min-height: auto; padding: 110px 0 70px; }
     .hero-name { letter-spacing: -1px; }
+    .hero-desc { max-width: 100%; margin-bottom: 28px; }
     .hero-cta  { flex-direction: column; align-items: flex-start; gap: 12px; }
     .hero-cta .btn { width: 100%; max-width: 260px; justify-content: center; }
 
